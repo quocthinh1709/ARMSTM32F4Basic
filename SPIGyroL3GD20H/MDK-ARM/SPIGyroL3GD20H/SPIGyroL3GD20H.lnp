@@ -1,0 +1,26 @@
+--cpu=Cortex-M4.fp
+"spigyrol3gd20h\startup_stm32f411xe.o"
+"spigyrol3gd20h\main.o"
+"spigyrol3gd20h\stm32f4xx_it.o"
+"spigyrol3gd20h\stm32f4xx_hal_msp.o"
+"spigyrol3gd20h\stm32f4xx_hal_spi.o"
+"spigyrol3gd20h\stm32f4xx_hal_tim.o"
+"spigyrol3gd20h\stm32f4xx_hal_tim_ex.o"
+"spigyrol3gd20h\stm32f4xx_hal_rcc.o"
+"spigyrol3gd20h\stm32f4xx_hal_rcc_ex.o"
+"spigyrol3gd20h\stm32f4xx_hal_flash.o"
+"spigyrol3gd20h\stm32f4xx_hal_flash_ex.o"
+"spigyrol3gd20h\stm32f4xx_hal_flash_ramfunc.o"
+"spigyrol3gd20h\stm32f4xx_hal_gpio.o"
+"spigyrol3gd20h\stm32f4xx_hal_dma_ex.o"
+"spigyrol3gd20h\stm32f4xx_hal_dma.o"
+"spigyrol3gd20h\stm32f4xx_hal_pwr.o"
+"spigyrol3gd20h\stm32f4xx_hal_pwr_ex.o"
+"spigyrol3gd20h\stm32f4xx_hal_cortex.o"
+"spigyrol3gd20h\stm32f4xx_hal.o"
+"spigyrol3gd20h\stm32f4xx_hal_exti.o"
+"spigyrol3gd20h\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "SPIGyroL3GD20H\SPIGyroL3GD20H.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "SPIGyroL3GD20H.map" -o SPIGyroL3GD20H\SPIGyroL3GD20H.axf
